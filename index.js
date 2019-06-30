@@ -6,7 +6,7 @@ const bot = new commando.Client({
 //const client = new Discord.client();
 
 bot.on("ready", async () => { 
-
+ 
    bot.user.setActivity('Jodiendo a luis');
   // console.log(bot.channels);
    var channel = bot.channels.get('322896774270550016');
