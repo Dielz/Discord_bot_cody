@@ -19,6 +19,7 @@ async run(message, args){
       {
         message.member.voiceChannel.join()
         .then(connection => {
+            console.log('Connected')
             message.replay("Aqui estoy!");
         })
 
